@@ -55,6 +55,7 @@ const Home = ({
             {articles.map((article) => (
               <Col sm={4} key={article.fields.slug}>
                 <Card
+                  className="mb-3"
                   body
                   style={{
                     minHeight: "300px",
