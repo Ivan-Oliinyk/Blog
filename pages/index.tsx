@@ -62,6 +62,8 @@ const Home = ({
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
+                    backgroundColor: "grey",
+                    color: "white",
                   }}
                 >
                   <CardTitle tag="h3">{article.fields.title}</CardTitle>
